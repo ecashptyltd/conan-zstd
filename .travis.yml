@@ -1,6 +1,8 @@
 env:
   global:
-    - TRAVIS_BRANCH:  "stable/1.3.5" # fake this so get_ci_vars() does not error out
+    - TRAVIS_BRANCH: "stable/1.3.5" # fake this so get_ci_vars() does not error out
+    - CONAN_USERNAME: "conan"
+    - CONAN_UPLOAD: "https://api.bintray.com/conan/ecashptyltd/public-conan"
 
 linux: &linux
    os: linux
