@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
-from conans import ConanFile, CMake
+from conans import ConanFile, CMake, tools
 
 
 class TestPackageConan(ConanFile):
